@@ -75,3 +75,32 @@ plt.xlabel("Epochs")
 plt.ylabel("Accuracy")
 plt.legend()
 plt.show()
+
+OUTPUT
+Found 4480 images belonging to 4 classes.
+Found 1120 images belonging to 4 classes.
+c:\Users\om231\anaconda3\envs\dl_env\lib\site-packages\keras\src\layers\convolutional\base_conv.py:113: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+Epoch 1/10
+140/140 ━━━━━━━━━━━━━━━━━━━━ 209s 1s/step - accuracy: 0.6904 - loss: 0.8631 - val_accuracy: 0.7795 - val_loss: 0.5380
+Epoch 2/10
+140/140 ━━━━━━━━━━━━━━━━━━━━ 1936s 14s/step - accuracy: 0.8717 - loss: 0.3599 - val_accuracy: 0.8643 - val_loss: 0.3874
+Epoch 3/10
+140/140 ━━━━━━━━━━━━━━━━━━━━ 156s 1s/step - accuracy: 0.9212 - loss: 0.2181 - val_accuracy: 0.9000 - val_loss: 0.2998
+Epoch 4/10
+140/140 ━━━━━━━━━━━━━━━━━━━━ 122s 872ms/step - accuracy: 0.9551 - loss: 0.1248 - val_accuracy: 0.9054 - val_loss: 0.2952
+Epoch 5/10
+140/140 ━━━━━━━━━━━━━━━━━━━━ 133s 950ms/step - accuracy: 0.9714 - loss: 0.0776 - val_accuracy: 0.9080 - val_loss: 0.2887
+Epoch 6/10
+140/140 ━━━━━━━━━━━━━━━━━━━━ 145s 1s/step - accuracy: 0.9842 - loss: 0.0519 - val_accuracy: 0.8821 - val_loss: 0.3993
+Epoch 7/10
+140/140 ━━━━━━━━━━━━━━━━━━━━ 132s 939ms/step - accuracy: 0.9808 - loss: 0.0612 - val_accuracy: 0.9152 - val_loss: 0.3142
+Epoch 8/10
+140/140 ━━━━━━━━━━━━━━━━━━━━ 141s 1s/step - accuracy: 0.9884 - loss: 0.0349 - val_accuracy: 0.9152 - val_loss: 0.3936
+Epoch 9/10
+140/140 ━━━━━━━━━━━━━━━━━━━━ 136s 970ms/step - accuracy: 0.9944 - loss: 0.0229 - val_accuracy: 0.9214 - val_loss: 0.3476
+Epoch 10/10
+140/140 ━━━━━━━━━━━━━━━━━━━━ 151s 1s/step - accuracy: 0.9982 - loss: 0.0060 - val_accuracy: 0.9152 - val_loss: 0.4416
+35/35 ━━━━━━━━━━━━━━━━━━━━ 11s 313ms/step - accuracy: 0.9152 - loss: 0.4416
+Validation Accuracy: 0.9151785969734192
+
